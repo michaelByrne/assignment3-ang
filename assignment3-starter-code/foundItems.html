@@ -1,0 +1,8 @@
+<div>
+  <ul>
+  <li ng-repeat="item in items track by $index">
+    <button ng-click="onRemove({index: $index});">Remove Item</button>
+    {{ items[$index] }}</li>
+  </ul>
+  <div>{{ message }}</div>
+</div>
