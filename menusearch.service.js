@@ -33,8 +33,8 @@ function MenuSearchService($http, ApiBasePath) {
             for (var i = 0;i<items.length; i++){
                 var item_name = items[i].name.toLowerCase();
                 //console.log(item_name);
-                if (item_name.indexOf(term) != -1){
-                    list.push(item_name);
+                if (items[i].name.toLowerCase().indexOf(term) != -1){
+                    list.push(items[i]);
                     //console.log(item_name);
                 }
             }

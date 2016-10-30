@@ -9,6 +9,21 @@ input[type="text"] {
   float: left;
   margin-left: 10px;
 }
+
+
+li {
+  background-color: cornsilk;
+  margin: 10px;
+}
+
+li > button{
+  margin: 5px;
+}
+
+.menu_items {
+  margin: 10px;
+}
+
 .loader {
   display: none;
   margin-left: 5px;
