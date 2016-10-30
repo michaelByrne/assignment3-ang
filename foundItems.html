@@ -1,7 +1,7 @@
 <div>
   <ul>
   <li ng-repeat="item in items track by $index">
-    <button ng-click="onRemove({index: $index});">Remove Item</button><br>
+    <button ng-click="onRemove({index: $index});">Don't want this one!</button><br>
     <div class="menu_items">name: {{ items[$index].name }}<br>
     short name: {{ items[$index].short_name }}<br>
     description: {{ items[$index].description }}<br></div><hr></li>
